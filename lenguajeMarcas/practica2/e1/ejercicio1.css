@@ -1,0 +1,17 @@
+p{
+    font-size: 30px;
+    font-style: "Times New Roman",Times, serif;
+    margin-bottom: 20px;
+    color: red;
+
+}
+
+#mi_id{
+    text-align: center;
+    background-color: greenyellow;
+}
+.mi_clase{
+    text-align: right;
+    background-color: aqua;
+
+}

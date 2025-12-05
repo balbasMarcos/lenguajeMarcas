@@ -1,0 +1,34 @@
+.fila1,
+.fila2,
+.fila3 {
+    display: flex;
+    background-color: #67D0F8;
+    margin-bottom: 10px;
+    width: 600px;
+    height: 200px;
+    padding: 10px;
+    
+
+
+}
+
+img {
+    background-color: #ACFFAC;
+    width: 200px;
+}
+
+p{
+    width: 200px;
+    margin: 0px;
+}
+
+#lorem1 {
+    text-align: left;
+    background-color: #DEB887;
+}
+
+#lorem2 {
+    text-align: right;
+    background-color: #5F9EA0;
+
+}

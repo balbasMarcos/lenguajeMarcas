@@ -1,0 +1,33 @@
+body{
+    background-color: #C8C8C8;
+}
+
+h1{
+    text-align: center;
+    background-color: blue;
+    color: white;
+}
+h2{
+    color: blue;
+
+}
+
+sub{
+    color: aqua;
+}
+sup{
+    color: gray;
+
+}
+
+.box{
+    background-color: #B4B4FF;
+}
+
+.elem1{
+    color: #C728D3;
+}
+
+.elem2{
+    color: #08676B;
+}

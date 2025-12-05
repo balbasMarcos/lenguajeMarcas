@@ -1,0 +1,58 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    height: 100vh;
+}
+
+div {
+    display: flex;
+    box-sizing: border-box;
+    height: 100%;
+    width: 100%;
+
+    a {
+        color: whitesmoke;
+    }
+}
+
+#CNT_1 {
+    background-color: red;
+
+    a {
+        color: yellow;
+    }
+}
+
+
+#CNT_2 {
+    background-color: blue;
+
+}
+
+#CNT_3 {
+    background-color: green;
+
+    a {
+        color: pink;
+    }
+}
+
+
+#CNT_4 {
+    background-color: yellow;
+     a {
+        color: purple;
+    }
+
+}
+
+#OL_MENU {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+    margin-left: 5vh;
+    color: white;
+}
