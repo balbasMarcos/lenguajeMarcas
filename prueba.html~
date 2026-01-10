@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="es">
+<!-- Cabecera del documento-->
+<head>
+    <!-- Cuerpo del documento -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Etiquetas estructura de texto</title>
+</head>
+<body>
+    <h1 align="center">Encabezado h1</h1>
+    <h2>Encabezado h2</h2>
+    <h3>Encabezado h3</h3>
+    <h4>Encabezado h4</h4>
+    <h5>Encabezado h5</h5>
+    <p align="justify">Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt debitis, nesciunt vel deserunt quisquam dolorum iusto non qui sit aperiam error illum neque aspernatur autem. Ab ducimus quam asperiores cum?</p>
+    
+    <br>
+
+    <p align="justify">Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt debitis, nesciunt vel deserunt quisquam dolorum iusto non qui sit aperiam error illum neque aspernatur autem. Ab ducimus quam asperiores cum?</p>
+    <p>La fórmula quimica del agua es h<sub>2</sub>0</p>
+    <p>La potencia 2<sub>3</sub> es igual a 9</p>
+
+    <P>
+        texto en <b>negrita</b>, en <i>cursiva</i> y <u>subrayado</u>
+    </P>
+</body>
+</html>
+

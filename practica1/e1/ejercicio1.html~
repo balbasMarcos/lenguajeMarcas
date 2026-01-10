@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="ejercicio1.css">
+    <title>Ejercicio1</title>
+</head>
+<body>
+    <h1 id="titulo"> El universo de Harry Potter </h1>
+    <h2 id="sinopsis">Sinópsis</h2>
+
+    <p id="p1">la historia de dfadfñl afd lñadfklf afkljfdfkldakjlf </p>
+    <h2 style="text-align: left;">Novelas</h2>
+    <p id="pIzq">Hay siete novelas de Harry Potter</p>
+    
+    <h3 style="text-align: left;">Harry Potter y la Piedra Filosofal </h3>
+    <p id="pIzq">Primera novela de la saga</p>
+
+    <h3 style="text-align: left;">Harry Potter y la Piedra Filosofal </h3>
+    <p id="pIzq">Segunda novela de la saga</p>
+
+    <h3 style="text-align: left;">Harry Potter y la Piedra Filosofal </h3>
+    <p id="pIzq">Tercera novela de la saga</p>
+
+    <h3 style="text-align: left;">Harry Potter y la Piedra Filosofal </h3>
+    <p id="pIzq">Cuarta novela de la saga</p>
+
+    <h3 style="text-align: left;">Harry Potter y la Piedra Filosofal </h3>
+    <p id="pIzq">Quinta novela de la saga</p>
+
+    <h3 style="text-align: left;">Harry Potter y la Piedra Filosofal </h3>
+    <p id="pIzq">Sexta novela de la saga</p>
+
+    <h3 style="text-align: left;">Harry Potter y la Piedra Filosofal </h3>
+    <p id="pIzq">Septima novela de la saga</p>
+
+
+</body>
+</html>

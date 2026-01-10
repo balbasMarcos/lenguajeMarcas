@@ -1,0 +1,25 @@
+body{
+    font-family: 'Lucida Console', 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+}
+img
+{
+    height: 300px;
+    width: 500px;
+    border-top: 7px solid #87B22F;
+    border-bottom: 7px solid #87B22F;
+}
+
+h1{
+    font-size: 20px;
+    margin-left: 100px;
+}
+
+h2{
+    color: #A9BF86;
+}
+
+li,h2{
+    margin-left: 50px;  
+
+}

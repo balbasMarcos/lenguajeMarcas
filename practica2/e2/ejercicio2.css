@@ -1,0 +1,44 @@
+body{
+    background-color: RGB(255,200,10);
+
+}
+
+h1{
+text-align: left;
+color: white;
+background-color: greenyellow;
+margin-left: 30px;
+
+}
+
+h2{
+    text-align: center;
+    background-color: aqua;
+    color: white;
+    margin-bottom: 100px;
+}
+
+b,u,i{
+    background-color: black;
+    color: white;
+}
+/* e)*/
+.clase1{
+    font-size: 20px;
+
+}
+
+
+
+#elem1{
+    font-size: 30px;
+
+}
+#elem2{
+    font-size: 40px;
+
+}
+#elem3{
+    font-size: 50px;
+
+}

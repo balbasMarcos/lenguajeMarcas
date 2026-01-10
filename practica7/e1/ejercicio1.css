@@ -1,0 +1,29 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    height: 100vh;
+    background-color: #CAC575;
+}
+
+div {
+    display: flex;
+    box-sizing: border-box;
+}
+
+
+#OL_MENU {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: start;
+    margin-left: 5vh;
+}
+
+
+#img_logo {
+    height: 8vh;
+    margin-left: 2vh;
+}

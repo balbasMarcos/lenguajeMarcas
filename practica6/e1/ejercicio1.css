@@ -1,0 +1,130 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    height: 100vh;
+    background-color: #FFE4C4;
+}
+
+div {
+    display: flex;
+    box-sizing: border-box;
+}
+
+h3 {
+    font-size: 3vmin;
+
+}
+
+#img_titanic {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    object-position: 50% 70%;
+}
+
+#titanic_titulo {
+    font-size: 15vmin;
+}
+
+#CNT_1 {
+    height: 35%;
+    margin-bottom: 2vh;
+}
+
+
+#CNT_2 {
+    height: 10%;
+    margin-bottom: 2vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#CNT_3 {
+    background-color: #F5F5DC;
+    height: 5%;
+    margin-bottom: 2vh;
+    border: 2px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+#UL_CNT_3 {
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-grow: 1;
+    list-style: none;
+
+
+}
+
+.CNT_4 {
+    height: 37%;
+    margin-bottom: 2vh;
+    border: 2px solid black;
+    display: flex;
+    justify-content: space-around;
+    border: none;
+
+}
+
+
+.CNT_4_1 {
+    background-color: #F5F5DC;
+    height: 100%;
+    width: 45%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.CNT_4_1_1 {
+    height: 100%;
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+#p_titulo {
+    font-size: 6vmin;
+}
+
+#p_texto {
+    font-size: 3vmin;
+}
+
+.CNT_4_1_2 {
+    height: 100%;
+    width: 45%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#img1 {
+    height: 90%;
+    width: 100%;
+}
+
+.CNT_5 {
+    background-color: #6A3A1A;
+    height: 5%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+a {
+    color: inherit;
+    text-decoration: none;
+}

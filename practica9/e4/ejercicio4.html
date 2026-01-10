@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="ejercicio4.css">
+    <script src="ejercicio4.js" defer></script>
+    <title>E4</title>
+</head>
+
+<body>
+    <table border="3">
+        <tr id="titulo">
+            <td colspan="3"> Name </td>
+            <td colspan="3"> value </td>
+        </tr>
+        <tr>
+            <td colspan="3">Name</td>
+            <td colspan="3"></td>
+        </tr>
+        <tr>
+            <td colspan="3">sex</td>
+            <td colspan="3">
+                <input id="sex" type="radio" name="sex" value="male">Male
+                <br>
+                <input id="sex" type="radio" name="sex" value="female">Female
+            </td>
+        </tr>
+        <tr>
+            <td colspan="3">eye color</td>
+            <td colspan="3">
+                <select name="eye_color" id="eye_colorID">
+                    <option value="blue">Blue</option>
+                    <option value="green">Green</option>
+                    <option value="brown">Brown</option>
+                </select>
+        </tr>
+        <tr>
+            <td colspan="3">Check all that apply</td>
+            <td colspan="3">
+                <label for="over6"> <input id="over6" type="checkbox">Over 6 feet tall</label>
+                <label for="over200"> <input id="over200" type="checkbox">Over 200 pounds</label>
+            </td>
+        </tr>
+        <tr>
+            <td colspan="6">
+                <label for="athletic_ability"> Describe your athletic ability:
+                </label>
+                <textarea name="athletic_ability" id="athletic_ability"></textarea>
+            </td>
+        </tr>
+        <tr>
+            <td colspan="6">
+                <button type="submit" id="submit_button">Enter my information</button>
+            </td>
+        </tr>
+    </table>
+</body>
+
+</html>

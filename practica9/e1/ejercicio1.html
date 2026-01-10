@@ -1,0 +1,49 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>E1</title>
+    <link rel="stylesheet" href="ejercicio1.css">
+</head>
+
+<body>
+    <div class="CNT_column">
+        <label for="salutation">salutation</label>
+        <select name="salutation" id="salutationID">
+            <option value="--None--">--None--</option>
+            <option value="MR">MR</option>
+            <option value="MRS">MRS</option>
+        </select>
+    </div>
+
+    <div class="CNT_column">
+        <label for="firstNameID">First Name<input type="text" id="firstNameID" name="firstName"></label>
+        <br>
+        <label for="lastNameID">Last Name<input type="text" id="lastNameID" name="lastName"></label>
+    </div>
+    <br>
+    <div class="CNT_row">
+        <label for="genderID">gender: </label>
+        <label><input id="genderID" type="radio" name="gender" value="Male">Male</label>
+        <label><input id="genderID" type="radio" name="gender" value="Female">Female</label>
+    </div>
+
+    <div class="CNT_row">
+        <label for="emailID">Email<input type="email" id="emailID" name="email"></label>
+    </div>
+
+    <div class="CNT_column">
+        <label for="birthID">Date of birth<input type="date" id="birthID" name="birth"></label>
+    </div>
+
+    <div class="CNT_column">
+        <label id="lbl_adress" for="adressID"> Adress:</label>
+        <textarea id="addressID" name="address" rows="3"></textarea>
+        <br>
+        <button id="lbl_adress" type="submit">Submit</button>
+
+    </div>
+</body>
+
+</html>

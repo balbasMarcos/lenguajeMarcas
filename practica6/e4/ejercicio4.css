@@ -1,0 +1,148 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    height: 100vh;
+    background-color: #FFFCE9;
+}
+
+div {
+    display: flex;
+    box-sizing: border-box;
+}
+
+.CNT_PRINCIPAL {
+    background-color: #FFFCE9;
+     height: 100%;
+     width: 100%;
+     display: flex;
+     flex-direction: row;
+}
+
+.CNT_MENU {
+    background-color: #004C4C;
+    color: #FFFBE7;
+    height: 100%;
+    width: 20%;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: center;
+}
+
+#img_menu {
+    height: 20%;
+    width: 90%;
+    object-fit: cover;
+    object-position: 90% 30%;
+}
+
+#UL_MENU {
+    margin-top: 30px;
+    list-style: none;
+
+}
+
+#li_menu {
+    margin-bottom: 20px;
+    font-size: 5vmin;
+}
+
+
+.CNT_PAGINA {
+    height: 100%;
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.CNT_PAGINA_1{
+    height: 20%;
+    width: 100%;
+    color: #004C4C;
+    font-size: 6vmin;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-bottom: 2vh;
+
+}
+.CNT_PAGINA_1_TITULO{
+    height: 100%;
+    width: 60%;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+}
+
+.CNT_PAGINA_1_IMG{
+    height: 100%;
+    width: 40%;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    margin-right: 50px;
+}
+
+
+
+
+
+.CNT_PAGINA_2{
+    height: 40%;
+    width: 100%;
+    color: #004C4C;
+    margin-bottom: 2vh;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+
+.CNT_PAGINA_2_TEXTO{
+    height: 100%;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: center;
+}
+
+.CNT_PAGINA_2_IMG{
+    height: 100%;
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#img_tiburon1 {
+    height: 80%;
+    width: 80%;
+    object-fit: cover;
+}
+
+
+.CNT_PAGINA_3{
+    height: 20%;
+    width: 80%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-top: 2px solid #004c4c;
+}
+
+
+#p_titulo {
+    font-size: 6vmin;
+}
+
+#p_texto {
+    font-size: 3.7vmin;
+    margin-left: 15%;
+    margin-right: 15%;
+    margin-top: 20px;
+}

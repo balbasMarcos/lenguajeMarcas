@@ -1,0 +1,26 @@
+body{
+    
+background-color: #FDFD9C;
+}
+img
+{
+    height: 200px;
+}
+
+h1{
+    background-color: #90EE90;
+    margin-left: 10px;
+}
+
+
+
+
+#elem1{
+    color: red;
+}
+#elem2{
+    color: green;
+}
+#elem3{
+    color: blue;
+}

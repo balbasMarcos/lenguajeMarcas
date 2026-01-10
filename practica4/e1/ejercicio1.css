@@ -1,0 +1,42 @@
+body{
+    background-color: #FFFF70 ;
+}
+
+
+h1{
+
+    background-color: #F5AB0A;
+    margin-left: 10px;
+    margin-right: 10px;
+    text-align: center;
+}
+
+p{
+    width: 90%;
+    margin: 0;
+    font-size: 1.5vw;
+}
+
+.peli1{
+    display: flex;
+    background-color: #F08080;
+    margin-top: 10px;
+    text-align: justify;
+}
+
+.peli2{
+    display: flex;
+    background-color: #1BA6F1;
+    margin-top: 10px;
+}
+
+.peli3{
+    display: flex;
+    background-color: #A0F080;
+    margin-top: 10px;
+}
+
+#img1,#img2,#img3{
+    width: 10%;
+}
+

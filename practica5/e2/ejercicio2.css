@@ -1,0 +1,47 @@
+body {
+    height: 100vh;
+    margin: 0;
+}
+
+#contenedor1 {
+    background-color: #74CA18;
+    height: 30%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+
+}
+
+#caja1 {
+    height: 100px;
+    width: 100px;
+    background-color: transparent;
+    border: solid black, 1px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+#contenedor2 {
+    background-color: #6B97F7;
+    height: 70%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+
+}
+
+#caja2 {
+    height: 90%;
+    width: 45%;
+    background-color: transparent;
+    border: solid black, 1px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+

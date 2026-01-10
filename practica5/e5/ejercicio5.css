@@ -1,0 +1,119 @@
+body {
+    height: 100vh;
+    margin: 0;
+}
+
+#contenedor1 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    text-align: center;
+    height: 20%;
+
+}
+
+
+
+#caja1_1 {
+    background-color: #FFA500;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    width: 20%;
+}
+
+
+
+#contenedor2 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    text-align: center;
+    height: 30%;
+
+}
+
+#contenedor2_2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    text-align: center;
+    width: 30%;
+}
+
+#caja2 {
+
+    background-color: #0000FF;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    width: 70%;
+
+}
+
+#caja2_1 {
+    background-color: #0000FF;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    flex-grow: 1;
+
+}
+
+#contenedor3 {
+    background-color: #FFFF00;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    text-align: center;
+    height: 50%;
+
+}
+
+#caja3_1 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    width: 15%;
+
+}
+
+#caja3_2 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    width: 55%;
+
+}
+
+#caja3_3 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    flex-grow: 1;
+
+
+}
+
+
+#contenedor4 {
+    background-color: #FF0000;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    height: 10%;
+
+}
+
+div {
+    border: 1px solid black;
+    box-sizing: border-box;
+    display: flex;
+}
