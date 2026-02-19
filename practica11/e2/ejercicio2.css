@@ -147,6 +147,19 @@ footer>nav {
     align-items: center;
     justify-content: center;
 }
+footer>nav>ul {
+
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: flex-end;
+    font-weight: bold;
+}
+footer>nav>ul a {
+    font-size: 0.9rem;
+}
+
 .texto-articulo {
     height: 100%;
     width: 80%;
@@ -157,3 +170,4 @@ footer>nav {
     padding-bottom: 100px;
     padding-top: 20px;
 }
+

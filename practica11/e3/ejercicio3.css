@@ -98,7 +98,7 @@ main {
     justify-content: space-around;
 }
 
-main > section {
+main>section {
     height: 100%;
     width: 70%;
     background-color: rgba(255, 255, 255, 0.15);
@@ -107,7 +107,8 @@ main > section {
     align-items: center;
     justify-content: space-around;
 }
-main > section > article{
+
+main>section>article {
     height: 100%;
     width: 100%;
     display: flex;
@@ -116,7 +117,7 @@ main > section > article{
     justify-content: space-around;
 }
 
-main > section > article form {
+main>section>article form {
     display: block;
     width: 100%;
 }
@@ -138,6 +139,7 @@ footer>nav {
     align-items: center;
     justify-content: center;
 }
+
 .texto-articulo {
     height: 100%;
     width: 80%;
@@ -162,6 +164,7 @@ table td {
     padding: 0.6rem;
     border: 0;
 }
+
 #input-text {
     display: flex;
     flex-direction: column;
@@ -169,7 +172,8 @@ table td {
     align-items: center;
 }
 
-input[type="text"], input[type="email"] {
+input[type="text"],
+input[type="email"] {
     width: 70%;
     padding: 0.2rem;
     border: 1px solid white;
@@ -178,24 +182,40 @@ input[type="text"], input[type="email"] {
     margin: 10px 0;
 }
 
-main > section > article ul {
+main>section>article ul {
     list-style: none;
     display: flex;
     flex-direction: row;
     justify-content: space-around;
     align-items: center;
     font-size: 1.2rem;
-}  
+}
 
 label {
     font-size: 1.2rem;
     color: white;
     margin-top: 0.5rem;
 }
-select,option {
+
+select,
+option {
     font-size: 1rem;
-    color: black;   
+    color: black;
 }
+
+footer>nav>ul {
+
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: flex-end;
+    font-weight: bold;
+}
+footer>nav>ul a {
+    font-size: 0.9rem;
+}
+
 #botones {
     display: flex;
     flex-direction: row;
